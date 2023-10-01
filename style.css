@@ -1,0 +1,155 @@
+
+@font-face {
+    font-family: 'Source Sans Pro light';
+    src: url('../fonts/ssl/SourceSansPro-Light.woff2') format('woff2'),
+        url('../fonts/ssl/SourceSansPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro Bold';
+    src: url('../fonts/ssb/SourceSansPro-Bold.woff2') format('woff2'),
+        url('../fonts/ssb/SourceSansPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro Black';
+    src: url('../fonts/ssbl/SourceSansPro-Black.woff2') format('woff2'),
+        url('../fonts/ssbl/SourceSansPro-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Source Sans Pro Regular';
+    src: url('../fonts/ssr/SourceSansPro-Regular.woff2') format('woff2'),
+        url('../fonts/ssr/SourceSansPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/* @font-face {
+    font-family: 'Myriad Pro Regular';
+    src: url('../fonts/mpr/MyriadPro-Regular.woff2') format('woff2'),
+        url('../fonts/mpr/MyriadPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Myriad Pro light';
+    src: url('../fonts/msl/MyriadPro-Light.woff2') format('woff2'),
+        url('../fonts/msl/MyriadPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+} */
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.spacer{
+    position: relative;
+}
+.spacer::after{
+    width: 2px;
+    height: 376px;
+    background-color: #cad6dc;
+    content: "";
+    display: block;
+    clear: both;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.spacer1{
+    position: relative;
+}
+.spacer1::after{
+	/* float: left; */
+    width: 540px;
+    height: 2px;
+    background-color: #cad6dc;
+    content: "";
+    display: block;
+    clear: both;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.spacer2{
+    position: relative;
+}
+.spacer2::after{
+	margin-left: 372px;
+	/* float: right; */
+    width: 540px;
+    height: 2px;
+    background-color: #cad6dc;
+    content: "";
+    display: block;
+    clear: both;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.spacer3{
+    position: relative;
+}
+.spacer3::after{
+    width: 1180px;
+    height: 2px;
+    background-color: #cad6dc;
+    content: "";
+    display: block;
+    clear: both;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.spacer4{
+    position: relative;
+}
+.spacer4::after{
+    width: 1180px;
+    height: 2px;
+    background-color: #597275;
+    content: "";
+    display: block;
+    clear: both;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.fix{
+	position: relative;
+}
+.fix::after{
+	position: fixed;
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+
+
+
